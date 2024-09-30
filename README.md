@@ -1,35 +1,36 @@
-# Computer-Graphics-
+# Clinic-management system
 
 
-# Ujjawal kumar
+#  Live version:
+https://clinic-1-e11e.onrender.com
 
-# BSc.(H)Computer Science
+# Features
 
-# 3rd year,6th sem
-
-# College roll no:20201441
-
-# Exam roll no: 20020570038
-
-# Ramanujan College, DU
-
-# Practical
-
-1) Write a program to implement Bresenhams line drawing algorith.
-
-2) Write a program to implement mid-point circle drawing algorithm.
-
-3) Write a program to clip a line using Cohen and Sutherland line clipping algorithm.
-
-4) Write a program to clip a polygon using Sutherland Hodgeman algorithm.
-
-5) Write a program to fill a polygon using Scan line fill algorithm.
-
-6) Write a program to apply various 2D transformations on a 2D object (use
-homogenous coordinates).
-
-7) Write a program to apply various 3D transformations on a 3D object and then apply
-parallel and perspective projection on it.
+1. This is a project for coding assignment at markeble built with ruby on rails.
+  
+2. The application includes a receptionist portal and a doctor portal. Both doctor and 
+   receptionist can login using single portal.
+   
+3. Receptionist can register a patient and assign to doctor and perform CRUD Operation.
+   
+4.  Doctor can view registered patient and graph of each days registered patient.
 
 
-8) Write a program to draw Hermite/Bezier curve.
+## Tech stack used
+
+. Ruby on rails for frontend and backend
+. Database postgresql
+. Devise for auth and session control
+
+# Getting started
+
+## Run following command to run the project
+
+1. Clone the repository: git clone https://github.com/Undercoder567/Clinic.git
+2. Navigate into the project directory: cd Clinic
+3. Install the dependencies: bundle install
+4. Set up the database: rails db:create db:migrate db:seed
+5. rails assets:precompile
+6. Start the server: rails server
+7. Visit http://localhost:3000/ in your browser to access the application.
+
