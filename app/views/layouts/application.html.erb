@@ -24,13 +24,13 @@
        <%#= link_to "Sign Up", new_user_registration_url, method: "get", class: "text-gray-500 hover:text-gray-700" %>
       <% else %>
        <div class="flex-grow text-gray-500">
-         Currently signed in as: <%= current_user.full_name %> (<%= current_user.role %>)
+         Current User: <%= current_user.full_name %> (<%= current_user.role %>)
        </div>
        <div class="flex items-center space-x-4">
          <% if current_user.role == 'receptionist' %>
            <%= link_to "Register a new patient", new_patient_path, class: "bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded" %>
          <% else %>
-           <%= link_to "See Patients vs Days Graph", patients_vs_days_graph_doctors_path, class: "bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded" %>
+           <%= link_to "See Graph", patients_vs_days_graph_doctors_path, class: "bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded" %>
          <% end %>
          <div class="ml-auto"> <!-- This div pushes the button to the right -->
            <%= button_to "Log Out", destroy_user_session_url, method: "delete", class: "bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded" %>
