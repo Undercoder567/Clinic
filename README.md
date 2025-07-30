@@ -4,6 +4,7 @@
 #  Live version:
 https://clinic-1-e11e.onrender.com
 
+https://chatgpt.com/share/688a1eb4-dccc-800e-8dc7-06fb1b5bd33d
 # Features
 
 1. This is a project for coding assignment at markeble built with ruby on rails.
